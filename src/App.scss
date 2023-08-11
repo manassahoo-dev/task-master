@@ -1,0 +1,64 @@
+.content {
+    padding: 10px;
+}
+
+.tabs {
+    width: 100%;
+    padding: 50px 0 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+
+    button {
+        cursor: pointer;
+        background: #fff;
+        border: none;
+        padding: 10px 25px;
+        color: #cfcfcf;
+        font-weight: bold;
+
+        &.active {
+            border-top: 1px solid #616161;
+            border-left: 1px solid #616161;
+            border-right: 1px solid #616161;
+            background: #7f7f7f;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+        }
+    }
+}
+
+.color-picker {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    gap: 0.5rem;
+}
+button {
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 1rem;
+}
+.action {
+    background-color: #e1e1e1;
+}
